@@ -1,3 +1,5 @@
+import x from '../../assets/Logo.png' ;
+
 export default function Footer() {
     return (
         <footer className="bg-dark bg-gradient text-white">
@@ -5,11 +7,8 @@ export default function Footer() {
                 <div className="row align-items-center">
                     <div className="col-md-4 mb-4">
                         <div className="d-flex align-items-center gap-3">
-                            <div className="bg-primary rounded-circle d-flex align-items-center justify-content-center brand-circle">
-                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 12c2.761 0 5-2.239 5-5s-2.239-5-5-5-5 2.239-5 5 2.239 5 5 5z" fill="#fff"/>
-                                    <path d="M4 20c0-4 4-6 8-6s8 2 8 6v1H4v-1z" fill="#fff" opacity="0.9"/>
-                                </svg>
+                            <div className='rounded-circle overflow-hidden'>
+                                <img src={x} alt="Logo" style={{ width: '50px', height: '50px' }} />
                             </div>
                             <div>
                                 <h5 className="mb-0 fs-3 fw-bold">Ziad El-Sayed</h5>

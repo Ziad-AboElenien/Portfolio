@@ -40,3 +40,20 @@ footer{
   transition: all 0.3s ease-in-out;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2) !important;
 }
+
+
+
+div.prof-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 56453645px;
+    box-shadow: 0px 0px 0px 2px rgba(18, 83, 174, 0.338);
+    transition: all 0.3s ease-in-out;
+}
+
+div.prof-img:hover{
+    transform: scale(1.2) translateY(-15%);
+    box-shadow: 2px 2px 2px 3px rgba(18, 83, 174, 0.338);
+}
+
+

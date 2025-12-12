@@ -21,7 +21,7 @@ export default function About() {
                     {/* Image / Profile */}
                     <div className="col-lg-5 text-center">
                         <div className="w-100 mb-3">
-                            <div className="rounded-circle mx-auto overflow-hidden" style={{ width: '200px', height: '200px' }}>
+                            <div className="rounded-circle prof-img mx-auto overflow-hidden" >
                                 <img className="w-100" src={x} alt="Profile" />
                             </div>
                         </div>
