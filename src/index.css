@@ -15,7 +15,7 @@ h1,h2,h3{
 div.line
 {
     display: inline-block;
-    width: 90px;
+    width: 3rem;
     background-color: white;
     border: 2px solid white;
 }
