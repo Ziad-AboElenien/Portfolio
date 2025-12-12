@@ -3,7 +3,10 @@ Portfolio Project
 A simple and clean portfolio website built using React, Vite, and a modular folder structure.
 The application includes multiple pages (Home, About, Portfolio, Contact) along with reusable components such as Navbar, Footer, and Cards.
 
+
+
 🚀 Features
+
 
 ⚡ Fast development with Vite
 
@@ -17,7 +20,16 @@ The application includes multiple pages (Home, About, Portfolio, Contact) along 
 
 🌐 Deployed using Vercel (supports SPA routing via vercel.json)
 
+
+
+
+
+
+
+
 📂 Project Structure
+
+
 FIRST-REACT-ASS/
 ├── public/
 ├── src/
@@ -41,7 +53,17 @@ FIRST-REACT-ASS/
 ├── package.json
 └── README.md
 
+
+
+
+
+
+
+
+
 🛠️ Technologies Used
+
+
 
 React 18
 
@@ -53,9 +75,16 @@ CSS / Bootstrap / Custom styling
 
 JavaScript (ES6+)
 
+
+
+
+
+
 📦 Installation & Setup
+
+
 1️⃣ Clone the repository
-git clone https://github.com/your-username/FIRST-REACT-ASS.git
+git clone https://github.com/Ziad-AboElenien/Portfolio
 cd FIRST-REACT-ASS
 
 2️⃣ Install dependencies
@@ -67,10 +96,16 @@ npm run dev
 🔧 Build for Production
 npm run build
 
-
 This will generate a dist/ folder ready to deploy.
 
+
+
+
+
+
+
 🌍 Vercel Deployment
+
 
 This project includes a vercel.json file to fix React Router routing:
 
@@ -86,10 +121,14 @@ This ensures your SPA works correctly on page refresh.
 
 
 
+
+
 🤝 Contributing
 
 Pull requests are welcome.
 Feel free to open issues for suggestions or improvements.
+
+
 
 
 
