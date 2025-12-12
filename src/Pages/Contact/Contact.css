@@ -1,0 +1,32 @@
+/* External styles for the Contact page (no inline or internal styles) */
+
+.contact-form .form-label {
+  letter-spacing: 0.2px;
+}
+
+.contact-form .form-control {
+  border-radius: 0.5rem;
+  padding: 0.8rem 0.9rem;
+  box-shadow: none;
+  border: 1px solid rgba(16, 24, 40, 0.08);
+}
+
+.contact-form .form-control:focus {
+  box-shadow: 0 0 0 0.15rem rgba(13,110,253,0.08);
+  border-color: rgba(13,110,253,0.6);
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 0.8rem;
+}
+
+.card .card-body {
+  padding: 2rem;
+}
+
+@media (max-width: 576px) {
+  .card .card-body {
+    padding: 1.25rem;
+  }
+}
